@@ -123,3 +123,9 @@
 h1:hover{
 font-family: 'Reggae One', cursive;
 }
+
+.contact{
+	font-size: 20px;
+	color: #fff;
+	justify-content: center;
+}
