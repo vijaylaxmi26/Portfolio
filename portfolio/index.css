@@ -1,8 +1,4 @@
-*{
-	margin: 0;
-	padding:0;
-	overflow: hidden;
-}
+
 
 .banner1,.banner2,.banner3,.banner4{
 	top: 0;
@@ -12,7 +8,7 @@
 	height: 100vh;
 }
 
-img{
+.back img{
 	height: 100%;
 	width: 110%;
 	position: absolute;
@@ -29,24 +25,24 @@ img{
 }
 
 .outine{
-	border-top:2px solid red;
-	border-bottom: 2px solid red;
+	border-top:2px solid #fff;
+	border-bottom: 2px solid #fff;
 	position: absolute;
 	padding:15px;
 	top: 10%;
 	left: 20%;
 }
 
-h1{
+.back h1{
 	font-size: 3em;
-	color: #fff;
+	color: #59bce3;
 }
 
 .banner1{
-	animation: slide_A 12s linear infinite
+	animation: slide_A 12s linear infinite;
 }
 .banner2{
-	animation: slide_B 12s linear infinite
+	animation: slide_B 12s linear infinite;
 }
 .banner3{
 	animation: slide_C 12s linear infinite
